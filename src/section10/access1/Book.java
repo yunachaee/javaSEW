@@ -4,11 +4,10 @@ public class Book {
 	// 속성 - 멤버변수
 	public String title;
 	protected int price;
-	public int totalPage;
-	public String author;
+	int totalPage;
+	private String author;
 	
-	public Book() {
-		
+	public Book() {	
 	}
 	
 	public Book(String title, int price, int totalPage, String author) {

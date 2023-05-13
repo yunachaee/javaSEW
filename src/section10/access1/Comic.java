@@ -7,7 +7,8 @@ public class Comic {
 		System.out.println("제목 : " + book1.title);
 		System.out.println("가격 : " + book1.price+"원");
 		System.out.println("페이지수 : " + book1.totalPage);
-		System.out.println("저자 : " + book1.author);
+		// private 접근제한자 다른 클래스 접근 불가
+//		System.out.println("저자 : " + book1.author);
 	}
 
 }

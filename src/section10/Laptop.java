@@ -11,6 +11,6 @@ public class Laptop extends Computer{
 		System.out.println("batter: " + battery);
 		System.out.println("display: " + display);
 		System.out.println("camera: " + camera);
-	}
+	}  
 
 }

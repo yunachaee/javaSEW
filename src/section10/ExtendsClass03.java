@@ -27,9 +27,12 @@ public class ExtendsClass03 {
 	public static void main(String[] args) {
 		Book book1 = new Book("멘토씨리즈 자바", 32000, 603, "김영우");
 		System.out.println("제목 : " + book1.title);
-//		System.out.println("가격 : " + book1.price+"원");
-		System.out.println("페이지수 : " + book1.totalPage);
-		System.out.println("저자 : " + book1.author);
+		// protected접근제한자 라서 다른 패키지 접근 불가
+//		System.out.println("가격 : " + book1.price+"원");	
+		// default접근제한자 라서 다른 패키지 접근 불가
+//		System.out.println("페이지수 : " + book1.totalPage);
+		// private 접근제한자 다른 클래스 접근 불가
+//		System.out.println("저자 : " + book1.author);
 		
 	}
 
